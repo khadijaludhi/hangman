@@ -1,6 +1,7 @@
 import random
 from words import words
 import string
+from hangman_visual import lives_visual  # Import the visual representation of the hangman
 
 # Function to retrieve a valid word from the provided list
 def get_valid_word(words):
@@ -33,6 +34,9 @@ def hangman():
     
     # Game loop: Continue as long as there are letters to guess and player has lives remaining
     while len(word_letters) > 0 and lives > 0:
+        # Display the hangman visual based on the number of lives left
+        print(lives_visual[7 - lives])
+        
         # Display letters that have been guessed so far
         print('You have', lives, 'lives left. And you have already used the following letters: ', ' '.join(used_letters))
         
