@@ -3,15 +3,15 @@ from words import words
 import string
 
 def get_valid_word(words):
-    word = random.choice(words) #randomly choose a word from the list
+    word = random.choice(words)  # randomly choose a word from the list
     while '-' in word or ' ' in word:
         word = random.choice(words)
         
-    return word
+    return word.upper()  # Convert word to uppercase
 
 def hangman():
     word = get_valid_word(words)
-    word_letters = set(word) # letters in the word
+    word_letters = set(word)  # letters in the word
     alphabet = set(string.ascii_uppercase)
     used_letters = set()
     
