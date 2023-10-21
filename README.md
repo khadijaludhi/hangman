@@ -4,7 +4,6 @@ A classic game of Hangman made with Python.
 
 ## What I Learned
 - **Python Basics**: Through this project, I deepened my understanding of Python's fundamentals, such as loops, conditionals, and data structures like lists and sets.
-- **File Organization**: I learned how to structure a Python project with multiple files for better organization and readability.
 - **String Manipulation**: This project provided hands-on experience with string methods, formatting, and manipulations.
 - **User Interaction**: This project has user input at its core, teaching the basics of input validation and user interaction.
 - **Visual Representation**: Introduced the concept of visual representation in the terminal using multi-line strings for the hangman stages.
