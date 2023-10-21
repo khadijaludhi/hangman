@@ -41,7 +41,7 @@ def hangman():
             
     # gets here when len(word_letters) == 0 OR when the lives == 0
     if lives == 0:
-        print('You died... How sad. ANYWAY, the word that cost you your life was', word)
+        print('And it appears that your dead... How sad. ANYWAY, the word that cost you your life was', word)
     else:
         print('You guessed the word', word, '! Looks like you get to live for just a teensy bit longer :)')
 
